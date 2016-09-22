@@ -1,6 +1,8 @@
 // let us use .env file variables 
 require('dotenv').load();
 var path = require('path');
+//testing axios api client
+require('./requestGenerator')
 //nodejs framework & sessions
 var express = require('express');
 //display messages in dev mode

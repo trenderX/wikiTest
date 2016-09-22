@@ -4,11 +4,12 @@
   "description": "testing media wiki api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/app.js --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.14.0",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "dotenv": "^2.0.0",
